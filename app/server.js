@@ -7,7 +7,7 @@ const HOST = '0.0.0.0';
 
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Testing Azure build pipeline\n');
+  res.send('Automated Build Pipeline test Successful!\n');
 });
 
 app.listen(PORT, HOST);
